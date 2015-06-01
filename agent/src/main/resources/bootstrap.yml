@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: agent
+  cloud:
+    config:
+      enabled: true
+      uri: ${CONFIG_SERVER_URI:http://localhost:8888}

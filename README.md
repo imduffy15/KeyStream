@@ -12,3 +12,13 @@ as they feel necessary.
 
 Should probably just use VNC/RDP/TeamViewer/etc.
 
+# Usage
+
+The modules are all based of Spring-Boot, they must be started in a specific
+order:
+
+ 1. configuration
+ 1. discovery
+ 1. agent
+
+To start a module run `mvn spring-boot:run` from its directory.
